@@ -55,15 +55,18 @@ Charts will be viewed in VSCode not saved.
 
 - **Hero Win Rates**  
   *Pharah* led with the highest map win rate (68.8%), followed by *Kiriko* (64.3%) and *Symmetra* (61.8%) showing their strong impact when picked.
+  
   ![Hero Win Rates](https://github.com/stlze/owcs-emea-stage2-analysis/blob/main/heroes%20winrate.png?raw=true)
 
 - **Most Banned Heroes**  
   *Lucio* (29 bans), *D.Va* (23), and *Freja* (19) were the most banned heroes, reflecting their high strategic threat across both team comps and tempo control.
   *Junkerqueen* remained either under-picked or had low win rates suggesting their minimal impact in EMEA Stage 2 until playoffs where the hero got a buff which caused bans to happen.
+  
   ![Most Banned Heroes](https://github.com/stlze/owcs-emea-stage2-analysis/blob/main/most%20banned%20heroes.png?raw=true)
 
 - **Versatility by Role**  
   *Skai* (Support), *Pak* (DPS), and *Heesung* (Tank) demonstrated the highest flexibility, each playing **9 unique heroes** a key trait in dynamic matchups.
+  
   ![Most Versatile Players](https://github.com/stlze/owcs-emea-stage2-analysis/blob/main/most%20versatile%20players.png?raw=true)
 
 - **Team Performance by Phase**  
