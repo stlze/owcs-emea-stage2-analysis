@@ -28,7 +28,6 @@ CREATE TABLE match_data_raw (
   deaths INTEGER,
   has_sb BOOLEAN
 );
-select * from match_data_raw
 
 --Team win rates by phase (Regular Season vs Playoffs) (map winrate)
 SELECT team, match_phase, COUNT(*) FILTER (WHERE result = 'Win') * 1.0 / COUNT(*) AS win_rate
