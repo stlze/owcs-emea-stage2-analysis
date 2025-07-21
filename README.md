@@ -44,14 +44,14 @@ python owcs_analysis.py
 
 Charts will be viewed in VSCode not saved.
 
-## 📈 Example Visuals
+## Example Visuals
 
 - Team win rates by phase
 - Top 20 banned heroes
 - Team map winrate
 - Most frequent hero switches
 
-## 📌 Data Collection Notes
+## Data Collection Notes
 
 - Matches are counted from the moment **“Assemble Heroes” starts**, not when the team fight begins.
 - Switches made **at the last second to touch the objective** are only counted **if the team won the fight**. Otherwise, they’re ignored.
