@@ -40,7 +40,7 @@ This project analyzes Overwatch Champion Series (OWCS) EMEA Stage 2 match data u
 
 ```bash
 python owcs_analysis.py
-
+```
 
 Charts will be viewed in VSCode not saved.
 
