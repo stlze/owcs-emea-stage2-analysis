@@ -30,7 +30,7 @@ CREATE TABLE match_data_raw (
 );
 select * from match_data_raw
 
---Team win rates by phase (e.g. Regular Season vs Playoffs) (map winrate)
+--Team win rates by phase (Regular Season vs Playoffs) (map winrate)
 SELECT team, match_phase, COUNT(*) FILTER (WHERE result = 'Win') * 1.0 / COUNT(*) AS win_rate
 FROM match_data_raw
 GROUP BY team, match_phase;
@@ -177,7 +177,7 @@ WHERE hero != 'None' AND hero != ''
 GROUP BY player, role
 ORDER BY unique_heroes DESC;
 
---Hero never picked
+--Heros never picked
 WITH all_heroes AS (
   SELECT unnest(ARRAY[
     'Ana','Ashe','Baptiste','Bastion','Brigitte','Cassidy','D.va','Doomfist',
@@ -202,7 +202,7 @@ FROM all_heroes
 WHERE hero NOT IN (SELECT hero FROM played_heroes_combined)
 ORDER BY hero;
 
--- Common out of the spawn team comps
+--Common out of the spawn team comps
 WITH comps AS (
   SELECT 
     match_id,
@@ -233,7 +233,7 @@ FROM match_data_raw
 GROUP BY map, map_type
 ORDER BY avg_duration_sec DESC;
 
---Ults used per role
+--Ultimates used per role
 SELECT role, ROUND(AVG(ultimates_used)) AS avg_ults_used
 FROM match_data_raw
 WHERE ultimates_used IS NOT NULL
@@ -278,7 +278,7 @@ FROM ranked_maps
 WHERE max_rank = 1 OR min_rank = 1
 ORDER BY map_duration DESC;
 
--- Most maps played by each team
+--Most maps played by each team
 SELECT
   team,
   map,
