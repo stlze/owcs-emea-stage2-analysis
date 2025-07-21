@@ -54,14 +54,14 @@ Charts will be viewed in VSCode not saved.
 ## Key Data Insights
 
 - **Hero Win Rates**  
-  *Pharah* led with the highest map win rate (68.8%), followed by *Kiriko* (64.3%) and *Symmetra* (61.8%)—showing their strong impact when picked.
+  *Pharah* led with the highest map win rate (68.8%), followed by *Kiriko* (64.3%) and *Symmetra* (61.8%) showing their strong impact when picked.
 
 - **Most Banned Heroes**  
   *Lucio* (29 bans), *D.Va* (23), and *Freja* (19) were the most banned heroes, reflecting their high strategic threat across both team comps and tempo control.
-  *Junkerqueen* remained either under-picked or had low win rates—suggesting their minimal impact in EMEA Stage 2 until playoffs where the hero got a buff which caused bans to happen.
+  *Junkerqueen* remained either under-picked or had low win rates suggesting their minimal impact in EMEA Stage 2 until playoffs where the hero got a buff which caused bans to happen.
 
 - **Versatility by Role**  
-  *Skai* (Support), *Pak* (DPS), and *Heesung* (Tank) demonstrated the highest flexibility, each playing **9 unique heroes**—a key trait in dynamic matchups.
+  *Skai* (Support), *Pak* (DPS), and *Heesung* (Tank) demonstrated the highest flexibility, each playing **9 unique heroes** a key trait in dynamic matchups.
 
 - **Team Performance by Phase**  
   *Al Qadsiah* maintained a perfect **100% win rate** across both Regular Season and Playoffs. *Twisted Minds* followed with a strong 71.4% in the Regular Season.
