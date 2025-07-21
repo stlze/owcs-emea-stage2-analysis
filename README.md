@@ -68,6 +68,7 @@ Charts will be viewed in VSCode not saved.
 
 - **Team Performance by Phase**  
   *Al Qadsiah* maintained a perfect **100% win rate** across both Regular Season and Playoffs. *Twisted Minds* followed with a strong 71.4% in the Regular Season.
+  
   ![Match Win Rate per Team](https://github.com/stlze/owcs-emea-stage2-analysis/blob/main/match%20winrate%20per%20team.png?raw=true)
 
 
